@@ -159,7 +159,7 @@ def callback_query(call):
             caption_text = "0x952e590A14FF263d93bBC6C2a919bAc5d0E62618"
 
     # Canlı destek butonunu oluşturun
-        live_support_button = types.InlineKeyboardButton("ADMIN", url="https://t.me/weedshoplivesupport")
+        live_support_button = types.InlineKeyboardButton("ADMIN", url="https://t.me/weedshopadminn")
         keyboard = types.InlineKeyboardMarkup()
         keyboard.add(live_support_button)
 
