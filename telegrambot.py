@@ -5,7 +5,7 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 import os
 
 # Telegram Bot'unuzu oluşturun
-bot = telebot.TeleBot("6769905904:AAHVvXUpdKsfGr5CwbOlIaqiGkFsVqWip2Q")
+bot = telebot.TeleBot("6769905904:AAEyNpDuNUGcIovL4OvJN9lROctZtpiSDWM")
 # Ülkeler için fotoğraf dosya yollarını belirtin
 turkeygeorgia_photo_link = "https://i.imgur.com/v5UyXJk.jpg"
 turkey_photo_link = "https://f.invest.gov.tr/en/PublishingImages/WHY-TURKEY_375x500.jpg"
