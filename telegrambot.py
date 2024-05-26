@@ -162,6 +162,14 @@ def callback_query(call):
         live_support_button = types.InlineKeyboardButton("ADMIN", url="https://t.me/weedshopadminn")
         keyboard = types.InlineKeyboardMarkup()
         keyboard.add(live_support_button)
+        
+        live_support_button1 = types.InlineKeyboardButton("ADMIN2", url="https://t.me/weedshopadmin2")
+        keyboard1 = types.InlineKeyboardMarkup()
+        keyboard1.add(live_support_button1)
+
+        live_support_button2 = types.InlineKeyboardButton("ADMIN3", url="https://t.me/oAdmins")
+        keyboard2 = types.InlineKeyboardMarkup()
+        keyboard2.add(live_support_button2)
 
 
         bot.send_photo(call.message.chat.id, payment_photo_path, caption=caption_text, reply_markup=keyboard)
