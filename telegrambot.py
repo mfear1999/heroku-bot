@@ -159,18 +159,13 @@ def callback_query(call):
             caption_text = "0x952e590A14FF263d93bBC6C2a919bAc5d0E62618"
 
     # Canlı destek butonunu oluşturun
-        live_support_button = types.InlineKeyboardButton("ADMIN", url="https://t.me/weedshopadminn")
+        live_support_button1 = types.InlineKeyboardButton("ADMIN1", url="https://t.me/weedshopadmin2")
+        live_support_button2 = types.InlineKeyboardButton("ADMIN2", url="https://t.me/weedshopadminn")
+        live_support_button3 = types.InlineKeyboardButton("ADMIN3", url="https://t.me/oAdmins")
         keyboard = types.InlineKeyboardMarkup()
-        keyboard.add(live_support_button)
-        
-        live_support_button1 = types.InlineKeyboardButton("ADMIN2", url="https://t.me/weedshopadmin2")
-        keyboard1 = types.InlineKeyboardMarkup()
-        keyboard1.add(live_support_button1)
-
-        live_support_button2 = types.InlineKeyboardButton("ADMIN3", url="https://t.me/oAdmins")
-        keyboard2 = types.InlineKeyboardMarkup()
-        keyboard2.add(live_support_button2)
-
+        keyboard.add(live_support_button1)
+        keyboard.add(live_support_button2)
+        keyboard.add(live_support_button3)
 
         bot.send_photo(call.message.chat.id, payment_photo_path, caption=caption_text, reply_markup=keyboard)
 
